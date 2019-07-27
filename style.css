@@ -1,50 +1,54 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-#header{
-    text-align: center;
-    background-image: url("/home/gabriel_rc/Imagens/novo2_res.jpg");
-    background-size: cover;
-    padding: 150px;
-    color:white;
-    text-shadow: 1px 1px 5px black;
-  }
-  #header h1 {
-    color: #fb9a4a;
-    font-size: 130px;
-  }
-#header h2{
-  color:white;
-    font-size: 40px;
-    font-weight: lighter;
+#alinha li {
+  display: inline-block;
+  width: 15%;
+  font-size: 18px;
 }
 
-  #header p {
-    color: white;
-    font-size: 30px;
-    font-weight: lighter;
-  }
-  #footer{
-    padding: 30px;
-    background: rgb(30, 30, 30);
-    color: lightgrey;
-  }
-  .card{
-    padding: 50px;
-    font-weight: lighter;
-    font-size: 30;
-  }
-  .card h2{
-    font-size: 70;
-  }
+#header {
+  text-align: center;
+  background-image: url("/home/gabriel_rc/Imagens/novo2_res.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#header h1 {
+  color: #fb9a4a;
+  font-size: 130px;
+}
+#header h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+}
 
-  #footer a {
-    color: lightgrey;
-    font-size: 15px;
-  }
-  #footer a:hover {
-    color: white;
-  }
-  
-  
+#header p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer {
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card {
+  padding: 50px;
+  font-weight: lighter;
+  font-size: 30;
+}
+.card h2 {
+  font-size: 70;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
