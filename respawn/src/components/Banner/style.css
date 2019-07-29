@@ -1,0 +1,18 @@
+#header {
+  text-align: center;
+  background-image: url("/home/gabriel_rc/Imagens/novo2_res.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#header h1 {
+  color: #fb9a4a;
+  font-size: 130px;
+}
+#header h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+}
