@@ -3,7 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from "prop-types";
 
 import Banner from "../../components/Banner/index";
-import meme from '../../images/meme.png';
+//import meme from '../../images/meme.png';
+import velocimetro from "../../images/velocimetro.jpeg"
+import gostos from "../../images/gostos.jpg"
+import paradigma from "../../images/paradigma.jpg"
+import amizade from "../../images/amizade.jpg"
 
 import Service from "./Service";
 
@@ -38,8 +42,8 @@ export default class Home extends Component {
                 <strong>uma paixão</strong>
               </p>
               <img
-                  src="/home/gabriel_rc/Imagens/velocimetro.jpeg"
-                  alt="briefcase"
+                  src={velocimetro}
+                  alt="picture description"
                   width="450"
               />
             </div>
@@ -48,7 +52,7 @@ export default class Home extends Component {
               <h2>Gostos</h2>
               <p>Não interessa a cilindrada, e sim <strong>a sua vontade</strong></p>
               <img
-                  src="/home/gabriel_rc/Imagens/gostos.jpg"
+                  src={gostos}
                   alt="picture description"
                   width="450"
               />
@@ -61,7 +65,7 @@ export default class Home extends Component {
                 <strong>"todo motoqueiro cai e pilota sem respeitar os outros"</strong>
               </p>
               <img
-                  src="/home/gabriel_rc/Imagens/paradigma.jpg"
+                  src={paradigma}
                   alt="picture description"
                   width="450"
               />
@@ -74,7 +78,7 @@ export default class Home extends Component {
                 <strong>sem a amizade entre os membros deste?</strong>
               </p>
               <img
-                  src={meme}
+                  src={amizade}
                   alt="picture description"
                   width="450"
               />
