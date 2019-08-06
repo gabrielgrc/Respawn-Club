@@ -4,13 +4,10 @@ import PropTypes from "prop-types";
 
 import Banner from "../../components/Banner/index";
 import Footer from "../../components/Footer";
-//import meme from '../../images/meme.png';
 import velocimetro from "../../images/velocimetro.jpeg";
 import gostos from "../../images/gostos.jpg";
 import paradigma from "../../images/paradigma.jpg";
 import amizade from "../../images/amizade.jpg";
-
-import Service from "./Service";
 
 import "./Home.css";
 
@@ -72,7 +69,7 @@ export default class Home extends Component {
             <img src={amizade} alt="picture description" width="450" />
           </div>
           <Footer />
-          
+
         </div>
       </div>
     );

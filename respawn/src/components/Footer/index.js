@@ -1,30 +1,36 @@
 import React, { Component } from "react";
 import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default class Footer extends Component {
   render() {
     return (
       <div id="footer">
         <p>Mídias sociais do ©Respawn Club</p>
-        <ul class="list-inline">
+        <ul className="list-inline">
           <li>
             <a href="#">
-              <i class="fab fa-youtube" />
+              <FontAwesomeIcon icon={faYoutube} />
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fab fa-facebook" />
+              <FontAwesomeIcon icon={faFacebook} />
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fab fa-twitter" />
+              <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fab fa-instagram" />
+              <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
         </ul>
