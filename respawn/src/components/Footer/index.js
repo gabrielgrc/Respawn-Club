@@ -14,24 +14,24 @@ export default class Footer extends Component {
         <p>Mídias sociais do ©Respawn Club</p>
         <ul className="list-inline">
           <li>
-            <a href="#">
+          <div id="youtube">
               <FontAwesomeIcon icon={faYoutube} />
-            </a>
+            </div>
           </li>
           <li>
-            <a href="#">
+            <div id="facebook">
               <FontAwesomeIcon icon={faFacebook} />
-            </a>
+            </div>
           </li>
           <li>
-            <a href="#">
+            <div id = "twitter">
               <FontAwesomeIcon icon={faTwitter} />
-            </a>
+            </div>
           </li>
           <li>
-            <a href="#">
+            <div id = "instagram">
               <FontAwesomeIcon icon={faInstagram} />
-            </a>
+            </div>
           </li>
         </ul>
       </div>

@@ -3,7 +3,7 @@
   background-image: url("/home/gabriel_rc/Imagens/novo2_res.jpg"); /*TODO: Fix this url*/
   background-size: cover;
   padding: 150px;
-  color: white;
+  background-color: darkolivegreen;
   text-shadow: 1px 1px 5px black;
 }
 

@@ -11,7 +11,7 @@ export default class Cardtextcenter extends Component {
           <h2>Paixão</h2>
           <p>
             Andar sobre duas rodas não é apenas um hobby, e sim
-            <strong>uma paixão</strong>
+            <strong> uma paixão</strong>
           </p>
           <img
               src="/home/gabriel_rc/Imagens/velocimetro.jpeg"
