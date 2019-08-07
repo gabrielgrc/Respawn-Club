@@ -8,6 +8,7 @@ import velocimetro from "../../images/velocimetro.jpeg";
 import gostos from "../../images/gostos.jpg";
 import paradigma from "../../images/paradigma.jpg";
 import amizade from "../../images/amizade.jpg";
+import Footer2 from "../../components/Footer2";
 
 import "./Home.css";
 
@@ -30,6 +31,7 @@ export default class Home extends Component {
     const { data } = this.state;
     return (
       <div>
+      <Footer2 />
         <Banner />
         <div className="content">
           <div className="card text-center">
